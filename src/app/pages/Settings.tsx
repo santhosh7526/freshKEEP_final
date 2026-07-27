@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react';
-import { Bell, ChevronRight, Lightbulb } from 'lucide-react';
+import { Bell, ChevronRight, Lightbulb, Sparkles, Send } from 'lucide-react';
+import { toast } from 'sonner';
 import { Switch } from '../components/ui/switch';
 import { store } from '../lib/store';
 import { NotificationSettings } from '../lib/types';
-import { getCategoryIcon } from '../lib/helpers';
+import { requestNotificationPermission, triggerNativeNotification } from '../lib/notifications';
 
 export default function Settings() {
   const [settings, setSettings] = useState<NotificationSettings>(store.getSettings());
@@ -12,8 +13,12 @@ export default function Settings() {
     store.setSettings(settings);
   }, [settings]);
 
-  const handleToggleNotifications = () => {
-    setSettings({ ...settings, enabled: !settings.enabled });
+  const handleToggleNotifications = async () => {
+    const nextState = !settings.enabled;
+    if (nextState) {
+      await requestNotificationPermission();
+    }
+    setSettings({ ...settings, enabled: nextState });
   };
 
   const handleLeadTimeChange = (category: keyof NotificationSettings['leadTimes']) => {
@@ -31,6 +36,21 @@ export default function Settings() {
     });
   };
 
+  const handleTestNotification = async () => {
+    const granted = await requestNotificationPermission();
+    const title = '🚨 Expiry Warning Test Alert';
+    const body = 'FreshKeep: Amul Milk expires in 2 days (29/07/2026)!';
+
+    toast.warning(title, {
+      description: body,
+      duration: 5000,
+    });
+
+    if (granted) {
+      triggerNativeNotification(title, body);
+    }
+  };
+
   const categories = [
     { key: 'dairy' as const, label: 'Dairy', icon: '🥛', description: 'Milk, cheese, yogurt' },
     { key: 'meat' as const, label: 'Meat & Fish', icon: '🥩', description: 'Fresh protein' },
@@ -40,12 +60,12 @@ export default function Settings() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#86A789]/5 to-white pb-20">
+    <div className="min-h-screen bg-gradient-to-b from-[#86A789]/5 to-white pb-24">
       <div className="max-w-md mx-auto p-6">
         {/* Header */}
         <div className="mb-6">
           <h1 className="text-3xl font-bold text-gray-900">Settings</h1>
-          <p className="text-sm text-gray-600 mt-1">Customize your notifications</p>
+          <p className="text-sm text-gray-600 mt-1">Customize your notifications & lead times</p>
         </div>
 
         {/* Notifications Toggle */}
@@ -62,6 +82,19 @@ export default function Settings() {
             </div>
             <Switch checked={settings.enabled} onCheckedChange={handleToggleNotifications} />
           </div>
+
+          {settings.enabled && (
+            <div className="mt-4 pt-3 border-t border-gray-100 flex items-center justify-between">
+              <span className="text-xs font-semibold text-gray-500">Test Notification System</span>
+              <button
+                onClick={handleTestNotification}
+                className="px-3 py-1.5 bg-[#86A789]/10 text-[#86A789] hover:bg-[#86A789]/20 rounded-xl text-xs font-bold transition-all flex items-center gap-1"
+              >
+                <Send className="w-3.5 h-3.5" />
+                Test Alert
+              </button>
+            </div>
+          )}
         </div>
 
         {/* Lead Times */}
@@ -183,12 +216,6 @@ export default function Settings() {
               <span>Color-coded urgency helps you prioritize what to use first</span>
             </li>
           </ul>
-        </div>
-
-        {/* Version */}
-        <div className="mt-8 text-center">
-          <p className="text-xs text-gray-400">FreshKeep v1.0</p>
-          <p className="text-xs text-gray-400 mt-1">Made with 💚 to reduce food waste</p>
         </div>
       </div>
     </div>

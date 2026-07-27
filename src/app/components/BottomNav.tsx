@@ -1,4 +1,4 @@
-import { Link, useLocation } from 'react-router';
+import { Link, useLocation } from 'react-router-dom';
 import { ScanLine, LayoutDashboard, ListChecks, Settings } from 'lucide-react';
 
 export function BottomNav() {
