@@ -3,10 +3,10 @@ import { TrendingUp, DollarSign, Leaf, ShoppingCart, Trash2, ChevronRight, Bell,
 import { Link } from 'react-router-dom';
 import { FreshnessGauge } from '../components/FreshnessGauge';
 import { RecipeCard } from '../components/RecipeCard';
-import { store } from '../lib/store';
-import { FoodItem } from '../lib/types';
-import { calculateFreshnessScore, getRecipeSuggestions, getDaysLeft, getCategoryIcon } from '../lib/helpers';
-import { checkAndNotifyExpiringItems, requestNotificationPermission } from '../lib/notifications';
+import { store } from '../../backend/storage/store';
+import { FoodItem } from '../../backend/models/types';
+import { calculateFreshnessScore, getRecipeSuggestions, getDaysLeft, getCategoryIcon } from '../../backend/logic/helpers';
+import { checkAndNotifyExpiringItems, requestNotificationPermission } from '../../backend/services/notifications';
 
 export default function Dashboard() {
   const [items, setItems] = useState<FoodItem[]>([]);

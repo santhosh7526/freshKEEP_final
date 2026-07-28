@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Plus, Trash2, ShoppingCart, X } from 'lucide-react';
-import { store } from '../lib/store';
+import { store } from '../../backend/storage/store';
 
 export default function ShoppingList() {
   const [items, setItems] = useState<string[]>([]);

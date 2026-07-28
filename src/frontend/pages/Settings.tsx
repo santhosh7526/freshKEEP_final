@@ -1,17 +1,27 @@
 import { useState, useEffect } from 'react';
-import { Bell, ChevronRight, Lightbulb, Sparkles, Send } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
+import { Bell, ChevronRight, Lightbulb, Sparkles, Send, LogOut, ShieldCheck } from 'lucide-react';
 import { toast } from 'sonner';
 import { Switch } from '../components/ui/switch';
-import { store } from '../lib/store';
-import { NotificationSettings } from '../lib/types';
-import { requestNotificationPermission, triggerNativeNotification } from '../lib/notifications';
+import { store } from '../../backend/storage/store';
+import { NotificationSettings } from '../../backend/models/types';
+import { requestNotificationPermission, triggerNativeNotification } from '../../backend/services/notifications';
+import { useAuth } from '../context/AuthContext';
 
 export default function Settings() {
+  const { user, logout } = useAuth();
+  const navigate = useNavigate();
   const [settings, setSettings] = useState<NotificationSettings>(store.getSettings());
 
   useEffect(() => {
     store.setSettings(settings);
   }, [settings]);
+
+  const handleLogout = () => {
+    logout();
+    toast.info('Signed out of Google Account');
+    navigate('/login', { replace: true });
+  };
 
   const handleToggleNotifications = async () => {
     const nextState = !settings.enabled;
@@ -65,8 +75,38 @@ export default function Settings() {
         {/* Header */}
         <div className="mb-6">
           <h1 className="text-3xl font-bold text-gray-900">Settings</h1>
-          <p className="text-sm text-gray-600 mt-1">Customize your notifications & lead times</p>
+          <p className="text-sm text-gray-600 mt-1">Customize your account & smart alerts</p>
         </div>
+
+        {/* Google Account Profile Card */}
+        {user && (
+          <div className="bg-white rounded-2xl p-4 shadow-sm border border-gray-100 mb-6">
+            <div className="flex items-center gap-3">
+              <img
+                src={user.picture}
+                alt={user.name}
+                className="w-12 h-12 rounded-full object-cover border-2 border-[#86A789]"
+              />
+              <div className="flex-1 min-w-0">
+                <div className="flex items-center gap-1.5">
+                  <h3 className="font-bold text-gray-900 truncate">{user.name}</h3>
+                  <ShieldCheck className="w-4 h-4 text-[#86A789] shrink-0" />
+                </div>
+                <p className="text-xs text-gray-500 truncate">{user.email}</p>
+                <span className="inline-block text-[10px] font-semibold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded-full mt-1">
+                  Google Authenticated
+                </span>
+              </div>
+              <button
+                onClick={handleLogout}
+                className="p-2 text-gray-400 hover:text-red-600 hover:bg-red-50 rounded-xl transition-colors"
+                title="Sign Out of Google"
+              >
+                <LogOut className="w-5 h-5" />
+              </button>
+            </div>
+          </div>
+        )}
 
         {/* Notifications Toggle */}
         <div className="bg-white rounded-2xl p-4 shadow-sm border border-gray-100 mb-6">

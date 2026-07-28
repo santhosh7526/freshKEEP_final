@@ -1,5 +1,5 @@
 import { createWorker } from 'tesseract.js';
-import { FoodItem } from './types';
+import { FoodItem } from '../models/types';
 
 export interface ScannedProductResult {
   name: string;
@@ -11,6 +11,7 @@ export interface ScannedProductResult {
   unit: string;
   rawTextDetected: string;
   dateFoundSnippet?: string;
+  hasExpiryDate?: boolean;
 }
 
 const MONTH_MAP: Record<string, string> = {
@@ -207,7 +208,8 @@ export async function performRealImageOCR(imageSrc: string): Promise<ScannedProd
       name: details.name,
       category: details.category,
       expiryDate: dateResult ? dateResult.date : fallbackDate,
-      confidence: dateResult ? Math.max(confidence, 92) : Math.min(confidence, 70),
+      hasExpiryDate: !!dateResult,
+      confidence: dateResult ? Math.max(confidence, 92) : Math.min(confidence, 60),
       price: 65,
       quantity: 1,
       unit: 'pcs',

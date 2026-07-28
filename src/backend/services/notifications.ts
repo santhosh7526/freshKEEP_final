@@ -1,7 +1,7 @@
 import { toast } from 'sonner';
-import { store } from './store';
-import { FoodItem } from './types';
-import { getDaysLeft } from './helpers';
+import { store } from '../storage/store';
+import { FoodItem } from '../models/types';
+import { getDaysLeft } from '../logic/helpers';
 
 // Request browser web notification permissions
 export async function requestNotificationPermission(): Promise<boolean> {

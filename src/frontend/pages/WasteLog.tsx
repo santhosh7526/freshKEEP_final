@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Trash2, TrendingDown, AlertTriangle, BarChart3 } from 'lucide-react';
-import { store } from '../lib/store';
-import { WasteLogEntry } from '../lib/types';
+import { store } from '../../backend/storage/store';
+import { WasteLogEntry } from '../../backend/models/types';
 
 export default function WasteLog() {
   const [wasteLog, setWasteLog] = useState<WasteLogEntry[]>([]);

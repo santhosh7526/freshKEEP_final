@@ -1,0 +1,22 @@
+[
+  {
+    "id": "user_alex_1001",
+    "name": "Alex Morgan",
+    "givenName": "Alex",
+    "email": "alex.morgan@gmail.com",
+    "passwordHash": "password123",
+    "picture": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+    "authProvider": "email",
+    "createdAt": "2026-01-15T10:00:00.000Z"
+  },
+  {
+    "id": "user_santhosh_1002",
+    "name": "Santhosh Kumar",
+    "givenName": "Santhosh",
+    "email": "santhosh.dev@gmail.com",
+    "passwordHash": "password123",
+    "picture": "https://api.dicebear.com/7.x/avataaars/svg?seed=santhosh.dev@gmail.com",
+    "authProvider": "google",
+    "createdAt": "2026-02-01T12:00:00.000Z"
+  }
+]

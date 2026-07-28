@@ -1,5 +1,5 @@
 import { Clock, ChefHat } from 'lucide-react';
-import { Recipe } from '../lib/types';
+import { Recipe } from '../../backend/models/types';
 
 interface RecipeCardProps {
   recipe: Recipe;

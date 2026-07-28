@@ -1,4 +1,4 @@
-import { createBrowserRouter, useRouteError } from 'react-router-dom';
+import { createHashRouter, Navigate, useRouteError } from 'react-router-dom';
 import Root from './pages/Root';
 import Scanner from './pages/Scanner';
 import Dashboard from './pages/Dashboard';
@@ -6,6 +6,24 @@ import Pantry from './pages/Pantry';
 import Settings from './pages/Settings';
 import ShoppingList from './pages/ShoppingList';
 import WasteLog from './pages/WasteLog';
+import Login from './pages/Login';
+import { useAuth } from './context/AuthContext';
+
+function ProtectedLayout() {
+  const { isAuthenticated } = useAuth();
+  if (!isAuthenticated) {
+    return <Navigate to="/login" replace />;
+  }
+  return <Root />;
+}
+
+function PublicLoginLayout() {
+  const { isAuthenticated } = useAuth();
+  if (isAuthenticated) {
+    return <Navigate to="/" replace />;
+  }
+  return <Login />;
+}
 
 function RootErrorBoundary() {
   const error: any = useRouteError();
@@ -30,10 +48,15 @@ function RootErrorBoundary() {
   );
 }
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([
+  {
+    path: '/login',
+    Component: PublicLoginLayout,
+    ErrorBoundary: RootErrorBoundary,
+  },
   {
     path: '/',
-    Component: Root,
+    Component: ProtectedLayout,
     ErrorBoundary: RootErrorBoundary,
     children: [
       { index: true, Component: Scanner },

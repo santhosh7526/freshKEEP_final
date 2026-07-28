@@ -1,5 +1,5 @@
 import { Bell, X } from 'lucide-react';
-import { getDaysLeft } from '../lib/helpers';
+import { getDaysLeft } from '../../backend/logic/helpers';
 
 interface NotificationCardProps {
   itemName: string;

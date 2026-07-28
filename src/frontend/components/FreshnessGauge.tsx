@@ -1,4 +1,4 @@
-import { getFreshnessState } from '../lib/helpers';
+import { getFreshnessState } from '../../backend/logic/helpers';
 
 interface FreshnessGaugeProps {
   score: number;

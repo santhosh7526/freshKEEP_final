@@ -1,4 +1,4 @@
-import { FoodItem, Recipe } from './types';
+import { FoodItem, Recipe } from '../models/types';
 
 export function getDaysLeft(expiryDate: string): number {
   const today = new Date();

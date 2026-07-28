@@ -1,4 +1,4 @@
-import { FoodItem, NotificationSettings, WasteLogEntry } from './types';
+import { FoodItem, NotificationSettings, WasteLogEntry } from '../models/types';
 
 const ITEMS_KEY = 'freshkeep_items';
 const SETTINGS_KEY = 'freshkeep_settings';

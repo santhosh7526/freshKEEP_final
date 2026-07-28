@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { Trash2, Clock, AlertCircle, DollarSign, CheckCircle } from 'lucide-react';
-import { store } from '../lib/store';
-import { FoodItem } from '../lib/types';
-import { getDaysLeft, getUrgencyColor, getUrgencyBg, getCategoryIcon } from '../lib/helpers';
+import { store } from '../../backend/storage/store';
+import { FoodItem } from '../../backend/models/types';
+import { getDaysLeft, getUrgencyColor, getUrgencyBg, getCategoryIcon } from '../../backend/logic/helpers';
 
 export default function Pantry() {
   const [items, setItems] = useState<FoodItem[]>([]);
