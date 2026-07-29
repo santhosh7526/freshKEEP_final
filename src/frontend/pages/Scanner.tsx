@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { Camera, ScanLine, Sparkles, Calendar, Bell, Upload, CheckCircle2, RefreshCw, QrCode, AlertTriangle, XCircle } from 'lucide-react';
 import { store } from '../../backend/storage/store';
+import { realtimeStore } from '../services/realtimeStore';
 import { FoodItem } from '../../backend/models/types';
 import { notifyItemAddedWithExpiry, requestNotificationPermission } from '../../backend/services/notifications';
 import { SAMPLE_PRODUCTS, ScannedProductResult, captureFrameFromVideo, performRealImageOCR } from '../../backend/services/ocrScanner';
@@ -266,7 +267,7 @@ export default function Scanner() {
     };
 
     // Save to store & schedule notifications
-    store.addItem(newItem);
+    realtimeStore.addItem(newItem);
     notifyItemAddedWithExpiry(newItem);
 
     // Reset view
@@ -409,7 +410,7 @@ export default function Scanner() {
                   )}
                 </div>
                 <h2 className="text-xl font-bold">
-                  {scanMode === 'qr' ? 'QR & Barcode Scanner' : 'Expiry Date OCR Scanner'}
+                  {scanMode === 'qr' ? 'QR & Barcode Scanner' : 'Scan Here'}
                 </h2>
                 <p className="text-xs text-gray-400 mt-2 max-w-xs leading-relaxed">
                   {scanMode === 'qr'
@@ -596,6 +597,12 @@ export default function Scanner() {
                     <p className="text-[11px] text-amber-800 mt-0.5 leading-relaxed">
                       No printed expiry date was recognized on this product package. Please enter or pick the correct expiry date manually below.
                     </p>
+                    {detectedProduct?.rawTextDetected && (
+                      <div className="mt-2 p-2 bg-amber-100/50 rounded-lg border border-amber-200">
+                        <p className="text-[9px] font-bold text-amber-900 uppercase">Raw Text Seen by Camera:</p>
+                        <p className="text-[10px] font-mono text-amber-800 break-all">{detectedProduct.rawTextDetected}</p>
+                      </div>
+                    )}
                   </div>
                 </div>
               ) : (

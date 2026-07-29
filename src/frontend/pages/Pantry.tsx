@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
-import { Trash2, Clock, AlertCircle, DollarSign, CheckCircle } from 'lucide-react';
+import { Trash2, Clock, AlertCircle, DollarSign, CheckCircle, Radio } from 'lucide-react';
 import { store } from '../../backend/storage/store';
+import { realtimeStore } from '../services/realtimeStore';
 import { FoodItem } from '../../backend/models/types';
 import { getDaysLeft, getUrgencyColor, getUrgencyBg, getCategoryIcon } from '../../backend/logic/helpers';
 
@@ -11,6 +12,13 @@ export default function Pantry() {
 
   useEffect(() => {
     loadItems();
+
+    // Subscribe to Supabase Realtime channel and cross-tab broadcasts
+    const unsubscribe = realtimeStore.subscribe(() => {
+      loadItems();
+    });
+
+    return () => unsubscribe();
   }, []);
 
   const loadItems = () => {
@@ -23,18 +31,16 @@ export default function Pantry() {
   };
 
   const handleDelete = (id: string) => {
-    store.removeItem(id);
-    loadItems();
+    realtimeStore.removeItem(id);
   };
 
   const handleMarkConsumed = (item: FoodItem) => {
-    store.removeItem(item.id);
-    loadItems();
+    realtimeStore.removeItem(item.id);
   };
 
   const handleMarkWasted = (item: FoodItem) => {
-    // Add to waste log
-    store.addWasteEntry({
+    // Add to waste log with Real-time Broadcast
+    realtimeStore.addWasteEntry({
       id: `${Date.now()}-${Math.random()}`,
       itemName: item.name,
       category: item.category,
@@ -43,8 +49,7 @@ export default function Pantry() {
       reason: getDaysLeft(item.expiryDate) < 0 ? 'expired' : 'spoiled',
     });
 
-    store.removeItem(item.id);
-    loadItems();
+    realtimeStore.removeItem(item.id);
   };
 
   const filteredItems = items
@@ -65,12 +70,19 @@ export default function Pantry() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#86A789]/5 to-white pb-20">
       <div className="max-w-md mx-auto p-6">
-        {/* Header */}
-        <div className="mb-6">
-          <h1 className="text-3xl font-bold text-gray-900">Pantry List</h1>
-          <p className="text-sm text-gray-600 mt-1">
-            {items.length} {items.length === 1 ? 'item' : 'items'} tracked
-          </p>
+        {/* Header with Supabase Realtime Badge */}
+        <div className="mb-6 flex items-start justify-between">
+          <div>
+            <h1 className="text-3xl font-bold text-gray-900">Pantry List</h1>
+            <p className="text-sm text-gray-600 mt-1">
+              {items.length} {items.length === 1 ? 'item' : 'items'} tracked
+            </p>
+          </div>
+
+          <div className="flex items-center gap-1.5 px-2.5 py-1 bg-emerald-50 border border-emerald-200 rounded-full text-[10px] font-bold text-emerald-800">
+            <Radio className="w-3 h-3 text-emerald-600 animate-pulse" />
+            <span>Realtime Synced</span>
+          </div>
         </div>
 
         {/* Total Value Card */}

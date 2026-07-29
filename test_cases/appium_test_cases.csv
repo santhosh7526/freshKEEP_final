@@ -1,0 +1,1201 @@
+Test Case ID,Module,Priority,Test Objective,Pre-conditions,Test Steps,Expected Result,Status
+"APP_TC_001","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_002","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_003","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_004","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_005","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_006","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_007","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_008","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_009","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_010","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_011","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_012","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_013","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_014","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_015","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_016","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_017","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_018","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_019","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_020","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_021","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_022","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_023","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_024","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_025","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_026","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_027","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_028","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_029","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_030","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_031","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_032","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_033","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_034","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_035","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_036","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_037","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_038","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_039","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_040","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_041","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_042","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_043","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_044","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_045","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_046","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_047","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_048","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_049","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_050","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_051","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_052","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_053","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_054","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_055","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_056","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_057","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_058","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_059","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_060","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_061","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_062","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_063","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_064","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_065","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_066","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_067","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_068","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_069","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_070","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_071","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_072","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_073","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_074","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_075","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_076","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_077","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_078","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_079","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_080","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_081","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_082","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_083","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_084","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_085","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_086","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_087","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_088","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_089","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_090","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_091","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_092","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_093","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_094","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_095","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_096","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_097","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_098","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_099","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_100","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_101","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_102","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_103","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_104","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_105","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_106","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_107","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_108","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_109","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_110","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_111","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_112","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_113","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_114","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_115","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_116","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_117","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_118","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_119","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_120","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_121","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_122","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_123","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_124","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_125","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_126","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_127","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_128","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_129","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_130","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_131","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_132","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_133","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_134","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_135","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_136","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_137","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_138","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_139","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_140","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_141","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_142","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_143","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_144","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_145","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_146","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_147","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_148","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_149","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_150","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_151","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_152","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_153","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_154","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_155","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_156","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_157","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_158","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_159","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_160","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_161","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_162","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_163","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_164","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_165","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_166","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_167","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_168","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_169","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_170","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_171","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_172","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_173","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_174","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_175","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_176","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_177","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_178","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_179","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_180","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_181","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_182","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_183","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_184","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_185","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_186","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_187","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_188","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_189","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_190","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_191","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_192","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_193","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_194","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_195","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_196","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_197","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_198","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_199","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_200","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_201","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_202","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_203","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_204","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_205","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_206","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_207","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_208","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_209","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_210","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_211","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_212","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_213","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_214","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_215","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_216","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_217","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_218","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_219","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_220","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_221","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_222","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_223","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_224","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_225","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_226","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_227","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_228","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_229","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_230","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_231","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_232","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_233","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_234","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_235","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_236","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_237","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_238","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_239","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_240","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_241","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_242","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_243","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_244","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_245","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_246","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_247","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_248","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_249","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_250","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_251","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_252","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_253","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_254","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_255","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_256","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_257","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_258","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_259","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_260","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_261","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_262","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_263","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_264","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_265","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_266","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_267","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_268","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_269","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_270","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_271","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_272","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_273","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_274","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_275","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_276","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_277","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_278","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_279","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_280","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_281","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_282","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_283","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_284","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_285","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_286","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_287","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_288","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_289","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_290","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_291","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_292","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_293","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_294","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_295","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_296","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_297","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_298","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_299","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_300","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_301","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_302","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_303","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_304","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_305","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_306","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_307","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_308","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_309","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_310","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_311","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_312","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_313","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_314","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_315","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_316","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_317","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_318","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_319","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_320","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_321","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_322","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_323","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_324","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_325","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_326","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_327","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_328","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_329","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_330","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_331","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_332","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_333","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_334","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_335","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_336","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_337","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_338","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_339","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_340","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_341","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_342","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_343","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_344","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_345","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_346","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_347","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_348","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_349","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_350","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_351","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_352","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_353","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_354","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_355","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_356","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_357","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_358","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_359","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_360","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_361","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_362","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_363","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_364","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_365","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_366","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_367","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_368","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_369","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_370","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_371","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_372","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_373","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_374","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_375","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_376","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_377","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_378","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_379","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_380","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_381","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_382","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_383","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_384","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_385","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_386","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_387","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_388","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_389","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_390","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_391","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_392","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_393","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_394","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_395","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"
+"APP_TC_396","Mobile UI","High","Verify native mobile action: Swipe Left to Delete","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Swipe Left to Delete
+3. Assert screen state","App handles Swipe Left to Delete gracefully without crashing","Pending"
+"APP_TC_397","Mobile UI","High","Verify native mobile action: Tap Camera Button","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Tap Camera Button
+3. Assert screen state","App handles Tap Camera Button gracefully without crashing","Pending"
+"APP_TC_398","Mobile UI","High","Verify native mobile action: Pull to Refresh","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Pull to Refresh
+3. Assert screen state","App handles Pull to Refresh gracefully without crashing","Pending"
+"APP_TC_399","Mobile UI","High","Verify native mobile action: Rotate Device Landscape","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Rotate Device Landscape
+3. Assert screen state","App handles Rotate Device Landscape gracefully without crashing","Pending"
+"APP_TC_400","Mobile UI","High","Verify native mobile action: Background App and Resume","App installed on iOS/Android Emulator","1. Launch App
+2. Perform Background App and Resume
+3. Assert screen state","App handles Background App and Resume gracefully without crashing","Pending"

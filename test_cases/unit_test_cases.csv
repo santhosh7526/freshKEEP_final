@@ -1,0 +1,801 @@
+Test Case ID,Module,Priority,Test Objective,Pre-conditions,Test Steps,Expected Result,Status
+"UNIT_TC_001","Core Logic","Critical","Calculate freshness for dairy (MFG: -1d, EXP: -10d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_002","Core Logic","Critical","Calculate freshness for meat (MFG: -2d, EXP: -9d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_003","Core Logic","Critical","Calculate freshness for pantry (MFG: -3d, EXP: -8d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_004","Core Logic","Critical","Calculate freshness for vegetables (MFG: -4d, EXP: -7d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_005","Core Logic","Critical","Calculate freshness for canned (MFG: -5d, EXP: -6d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_006","Core Logic","Critical","Calculate freshness for dairy (MFG: -6d, EXP: -5d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_007","Core Logic","Critical","Calculate freshness for meat (MFG: -7d, EXP: -4d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_008","Core Logic","Critical","Calculate freshness for pantry (MFG: -8d, EXP: -3d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_009","Core Logic","Critical","Calculate freshness for vegetables (MFG: -9d, EXP: -2d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_010","Core Logic","Critical","Calculate freshness for canned (MFG: -10d, EXP: -1d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_011","Core Logic","Critical","Calculate freshness for dairy (MFG: -11d, EXP: 0d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_012","Core Logic","Critical","Calculate freshness for meat (MFG: -12d, EXP: 1d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_013","Core Logic","Critical","Calculate freshness for pantry (MFG: -13d, EXP: 2d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_014","Core Logic","Critical","Calculate freshness for vegetables (MFG: -14d, EXP: 3d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_015","Core Logic","Critical","Calculate freshness for canned (MFG: -15d, EXP: 4d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_016","Core Logic","Critical","Calculate freshness for dairy (MFG: -16d, EXP: 5d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_017","Core Logic","Critical","Calculate freshness for meat (MFG: -17d, EXP: 6d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_018","Core Logic","Critical","Calculate freshness for pantry (MFG: -18d, EXP: 7d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_019","Core Logic","Critical","Calculate freshness for vegetables (MFG: -19d, EXP: 8d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_020","Core Logic","Critical","Calculate freshness for canned (MFG: -20d, EXP: 9d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_021","Core Logic","Critical","Calculate freshness for dairy (MFG: -21d, EXP: 10d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_022","Core Logic","Critical","Calculate freshness for meat (MFG: -22d, EXP: 11d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_023","Core Logic","Critical","Calculate freshness for pantry (MFG: -23d, EXP: 12d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_024","Core Logic","Critical","Calculate freshness for vegetables (MFG: -24d, EXP: 13d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_025","Core Logic","Critical","Calculate freshness for canned (MFG: -25d, EXP: 14d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_026","Core Logic","Critical","Calculate freshness for dairy (MFG: -26d, EXP: 15d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_027","Core Logic","Critical","Calculate freshness for meat (MFG: -27d, EXP: 16d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_028","Core Logic","Critical","Calculate freshness for pantry (MFG: -28d, EXP: 17d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_029","Core Logic","Critical","Calculate freshness for vegetables (MFG: -29d, EXP: 18d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_030","Core Logic","Critical","Calculate freshness for canned (MFG: -30d, EXP: 19d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_031","Core Logic","Critical","Calculate freshness for dairy (MFG: -1d, EXP: 20d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_032","Core Logic","Critical","Calculate freshness for meat (MFG: -2d, EXP: 21d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_033","Core Logic","Critical","Calculate freshness for pantry (MFG: -3d, EXP: 22d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_034","Core Logic","Critical","Calculate freshness for vegetables (MFG: -4d, EXP: 23d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_035","Core Logic","Critical","Calculate freshness for canned (MFG: -5d, EXP: 24d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_036","Core Logic","Critical","Calculate freshness for dairy (MFG: -6d, EXP: 25d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_037","Core Logic","Critical","Calculate freshness for meat (MFG: -7d, EXP: 26d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_038","Core Logic","Critical","Calculate freshness for pantry (MFG: -8d, EXP: 27d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_039","Core Logic","Critical","Calculate freshness for vegetables (MFG: -9d, EXP: 28d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_040","Core Logic","Critical","Calculate freshness for canned (MFG: -10d, EXP: 29d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_041","Core Logic","Critical","Calculate freshness for dairy (MFG: -11d, EXP: 30d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_042","Core Logic","Critical","Calculate freshness for meat (MFG: -12d, EXP: 31d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_043","Core Logic","Critical","Calculate freshness for pantry (MFG: -13d, EXP: 32d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_044","Core Logic","Critical","Calculate freshness for vegetables (MFG: -14d, EXP: 33d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_045","Core Logic","Critical","Calculate freshness for canned (MFG: -15d, EXP: 34d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_046","Core Logic","Critical","Calculate freshness for dairy (MFG: -16d, EXP: 35d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_047","Core Logic","Critical","Calculate freshness for meat (MFG: -17d, EXP: 36d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_048","Core Logic","Critical","Calculate freshness for pantry (MFG: -18d, EXP: 37d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_049","Core Logic","Critical","Calculate freshness for vegetables (MFG: -19d, EXP: 38d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_050","Core Logic","Critical","Calculate freshness for canned (MFG: -20d, EXP: 39d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_051","Core Logic","Critical","Calculate freshness for dairy (MFG: -21d, EXP: 40d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_052","Core Logic","Critical","Calculate freshness for meat (MFG: -22d, EXP: 41d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_053","Core Logic","Critical","Calculate freshness for pantry (MFG: -23d, EXP: 42d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_054","Core Logic","Critical","Calculate freshness for vegetables (MFG: -24d, EXP: 43d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_055","Core Logic","Critical","Calculate freshness for canned (MFG: -25d, EXP: 44d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_056","Core Logic","Critical","Calculate freshness for dairy (MFG: -26d, EXP: 45d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_057","Core Logic","Critical","Calculate freshness for meat (MFG: -27d, EXP: 46d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_058","Core Logic","Critical","Calculate freshness for pantry (MFG: -28d, EXP: 47d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_059","Core Logic","Critical","Calculate freshness for vegetables (MFG: -29d, EXP: 48d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_060","Core Logic","Critical","Calculate freshness for canned (MFG: -30d, EXP: 49d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_061","Core Logic","Critical","Calculate freshness for dairy (MFG: -1d, EXP: -10d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_062","Core Logic","Critical","Calculate freshness for meat (MFG: -2d, EXP: -9d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_063","Core Logic","Critical","Calculate freshness for pantry (MFG: -3d, EXP: -8d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_064","Core Logic","Critical","Calculate freshness for vegetables (MFG: -4d, EXP: -7d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_065","Core Logic","Critical","Calculate freshness for canned (MFG: -5d, EXP: -6d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_066","Core Logic","Critical","Calculate freshness for dairy (MFG: -6d, EXP: -5d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_067","Core Logic","Critical","Calculate freshness for meat (MFG: -7d, EXP: -4d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_068","Core Logic","Critical","Calculate freshness for pantry (MFG: -8d, EXP: -3d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_069","Core Logic","Critical","Calculate freshness for vegetables (MFG: -9d, EXP: -2d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_070","Core Logic","Critical","Calculate freshness for canned (MFG: -10d, EXP: -1d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_071","Core Logic","Critical","Calculate freshness for dairy (MFG: -11d, EXP: 0d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_072","Core Logic","Critical","Calculate freshness for meat (MFG: -12d, EXP: 1d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_073","Core Logic","Critical","Calculate freshness for pantry (MFG: -13d, EXP: 2d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_074","Core Logic","Critical","Calculate freshness for vegetables (MFG: -14d, EXP: 3d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_075","Core Logic","Critical","Calculate freshness for canned (MFG: -15d, EXP: 4d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_076","Core Logic","Critical","Calculate freshness for dairy (MFG: -16d, EXP: 5d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_077","Core Logic","Critical","Calculate freshness for meat (MFG: -17d, EXP: 6d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_078","Core Logic","Critical","Calculate freshness for pantry (MFG: -18d, EXP: 7d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_079","Core Logic","Critical","Calculate freshness for vegetables (MFG: -19d, EXP: 8d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_080","Core Logic","Critical","Calculate freshness for canned (MFG: -20d, EXP: 9d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_081","Core Logic","Critical","Calculate freshness for dairy (MFG: -21d, EXP: 10d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_082","Core Logic","Critical","Calculate freshness for meat (MFG: -22d, EXP: 11d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_083","Core Logic","Critical","Calculate freshness for pantry (MFG: -23d, EXP: 12d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_084","Core Logic","Critical","Calculate freshness for vegetables (MFG: -24d, EXP: 13d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_085","Core Logic","Critical","Calculate freshness for canned (MFG: -25d, EXP: 14d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_086","Core Logic","Critical","Calculate freshness for dairy (MFG: -26d, EXP: 15d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_087","Core Logic","Critical","Calculate freshness for meat (MFG: -27d, EXP: 16d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_088","Core Logic","Critical","Calculate freshness for pantry (MFG: -28d, EXP: 17d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_089","Core Logic","Critical","Calculate freshness for vegetables (MFG: -29d, EXP: 18d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_090","Core Logic","Critical","Calculate freshness for canned (MFG: -30d, EXP: 19d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_091","Core Logic","Critical","Calculate freshness for dairy (MFG: -1d, EXP: 20d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_092","Core Logic","Critical","Calculate freshness for meat (MFG: -2d, EXP: 21d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_093","Core Logic","Critical","Calculate freshness for pantry (MFG: -3d, EXP: 22d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_094","Core Logic","Critical","Calculate freshness for vegetables (MFG: -4d, EXP: 23d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_095","Core Logic","Critical","Calculate freshness for canned (MFG: -5d, EXP: 24d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_096","Core Logic","Critical","Calculate freshness for dairy (MFG: -6d, EXP: 25d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_097","Core Logic","Critical","Calculate freshness for meat (MFG: -7d, EXP: 26d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_098","Core Logic","Critical","Calculate freshness for pantry (MFG: -8d, EXP: 27d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_099","Core Logic","Critical","Calculate freshness for vegetables (MFG: -9d, EXP: 28d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_100","Core Logic","Critical","Calculate freshness for canned (MFG: -10d, EXP: 29d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_101","Core Logic","Critical","Calculate freshness for dairy (MFG: -11d, EXP: 30d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_102","Core Logic","Critical","Calculate freshness for meat (MFG: -12d, EXP: 31d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_103","Core Logic","Critical","Calculate freshness for pantry (MFG: -13d, EXP: 32d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_104","Core Logic","Critical","Calculate freshness for vegetables (MFG: -14d, EXP: 33d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_105","Core Logic","Critical","Calculate freshness for canned (MFG: -15d, EXP: 34d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_106","Core Logic","Critical","Calculate freshness for dairy (MFG: -16d, EXP: 35d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_107","Core Logic","Critical","Calculate freshness for meat (MFG: -17d, EXP: 36d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_108","Core Logic","Critical","Calculate freshness for pantry (MFG: -18d, EXP: 37d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_109","Core Logic","Critical","Calculate freshness for vegetables (MFG: -19d, EXP: 38d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_110","Core Logic","Critical","Calculate freshness for canned (MFG: -20d, EXP: 39d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_111","Core Logic","Critical","Calculate freshness for dairy (MFG: -21d, EXP: 40d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_112","Core Logic","Critical","Calculate freshness for meat (MFG: -22d, EXP: 41d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_113","Core Logic","Critical","Calculate freshness for pantry (MFG: -23d, EXP: 42d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_114","Core Logic","Critical","Calculate freshness for vegetables (MFG: -24d, EXP: 43d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_115","Core Logic","Critical","Calculate freshness for canned (MFG: -25d, EXP: 44d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_116","Core Logic","Critical","Calculate freshness for dairy (MFG: -26d, EXP: 45d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_117","Core Logic","Critical","Calculate freshness for meat (MFG: -27d, EXP: 46d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_118","Core Logic","Critical","Calculate freshness for pantry (MFG: -28d, EXP: 47d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_119","Core Logic","Critical","Calculate freshness for vegetables (MFG: -29d, EXP: 48d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_120","Core Logic","Critical","Calculate freshness for canned (MFG: -30d, EXP: 49d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_121","Core Logic","Critical","Calculate freshness for dairy (MFG: -1d, EXP: -10d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_122","Core Logic","Critical","Calculate freshness for meat (MFG: -2d, EXP: -9d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_123","Core Logic","Critical","Calculate freshness for pantry (MFG: -3d, EXP: -8d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_124","Core Logic","Critical","Calculate freshness for vegetables (MFG: -4d, EXP: -7d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_125","Core Logic","Critical","Calculate freshness for canned (MFG: -5d, EXP: -6d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_126","Core Logic","Critical","Calculate freshness for dairy (MFG: -6d, EXP: -5d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_127","Core Logic","Critical","Calculate freshness for meat (MFG: -7d, EXP: -4d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_128","Core Logic","Critical","Calculate freshness for pantry (MFG: -8d, EXP: -3d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_129","Core Logic","Critical","Calculate freshness for vegetables (MFG: -9d, EXP: -2d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_130","Core Logic","Critical","Calculate freshness for canned (MFG: -10d, EXP: -1d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_131","Core Logic","Critical","Calculate freshness for dairy (MFG: -11d, EXP: 0d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_132","Core Logic","Critical","Calculate freshness for meat (MFG: -12d, EXP: 1d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_133","Core Logic","Critical","Calculate freshness for pantry (MFG: -13d, EXP: 2d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_134","Core Logic","Critical","Calculate freshness for vegetables (MFG: -14d, EXP: 3d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_135","Core Logic","Critical","Calculate freshness for canned (MFG: -15d, EXP: 4d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_136","Core Logic","Critical","Calculate freshness for dairy (MFG: -16d, EXP: 5d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_137","Core Logic","Critical","Calculate freshness for meat (MFG: -17d, EXP: 6d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_138","Core Logic","Critical","Calculate freshness for pantry (MFG: -18d, EXP: 7d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_139","Core Logic","Critical","Calculate freshness for vegetables (MFG: -19d, EXP: 8d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_140","Core Logic","Critical","Calculate freshness for canned (MFG: -20d, EXP: 9d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_141","Core Logic","Critical","Calculate freshness for dairy (MFG: -21d, EXP: 10d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_142","Core Logic","Critical","Calculate freshness for meat (MFG: -22d, EXP: 11d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_143","Core Logic","Critical","Calculate freshness for pantry (MFG: -23d, EXP: 12d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_144","Core Logic","Critical","Calculate freshness for vegetables (MFG: -24d, EXP: 13d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_145","Core Logic","Critical","Calculate freshness for canned (MFG: -25d, EXP: 14d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_146","Core Logic","Critical","Calculate freshness for dairy (MFG: -26d, EXP: 15d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_147","Core Logic","Critical","Calculate freshness for meat (MFG: -27d, EXP: 16d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_148","Core Logic","Critical","Calculate freshness for pantry (MFG: -28d, EXP: 17d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_149","Core Logic","Critical","Calculate freshness for vegetables (MFG: -29d, EXP: 18d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_150","Core Logic","Critical","Calculate freshness for canned (MFG: -30d, EXP: 19d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_151","Core Logic","Critical","Calculate freshness for dairy (MFG: -1d, EXP: 20d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_152","Core Logic","Critical","Calculate freshness for meat (MFG: -2d, EXP: 21d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_153","Core Logic","Critical","Calculate freshness for pantry (MFG: -3d, EXP: 22d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_154","Core Logic","Critical","Calculate freshness for vegetables (MFG: -4d, EXP: 23d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_155","Core Logic","Critical","Calculate freshness for canned (MFG: -5d, EXP: 24d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_156","Core Logic","Critical","Calculate freshness for dairy (MFG: -6d, EXP: 25d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_157","Core Logic","Critical","Calculate freshness for meat (MFG: -7d, EXP: 26d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_158","Core Logic","Critical","Calculate freshness for pantry (MFG: -8d, EXP: 27d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_159","Core Logic","Critical","Calculate freshness for vegetables (MFG: -9d, EXP: 28d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_160","Core Logic","Critical","Calculate freshness for canned (MFG: -10d, EXP: 29d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_161","Core Logic","Critical","Calculate freshness for dairy (MFG: -11d, EXP: 30d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_162","Core Logic","Critical","Calculate freshness for meat (MFG: -12d, EXP: 31d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_163","Core Logic","Critical","Calculate freshness for pantry (MFG: -13d, EXP: 32d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_164","Core Logic","Critical","Calculate freshness for vegetables (MFG: -14d, EXP: 33d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_165","Core Logic","Critical","Calculate freshness for canned (MFG: -15d, EXP: 34d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_166","Core Logic","Critical","Calculate freshness for dairy (MFG: -16d, EXP: 35d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_167","Core Logic","Critical","Calculate freshness for meat (MFG: -17d, EXP: 36d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_168","Core Logic","Critical","Calculate freshness for pantry (MFG: -18d, EXP: 37d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_169","Core Logic","Critical","Calculate freshness for vegetables (MFG: -19d, EXP: 38d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_170","Core Logic","Critical","Calculate freshness for canned (MFG: -20d, EXP: 39d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_171","Core Logic","Critical","Calculate freshness for dairy (MFG: -21d, EXP: 40d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_172","Core Logic","Critical","Calculate freshness for meat (MFG: -22d, EXP: 41d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_173","Core Logic","Critical","Calculate freshness for pantry (MFG: -23d, EXP: 42d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_174","Core Logic","Critical","Calculate freshness for vegetables (MFG: -24d, EXP: 43d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_175","Core Logic","Critical","Calculate freshness for canned (MFG: -25d, EXP: 44d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_176","Core Logic","Critical","Calculate freshness for dairy (MFG: -26d, EXP: 45d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_177","Core Logic","Critical","Calculate freshness for meat (MFG: -27d, EXP: 46d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_178","Core Logic","Critical","Calculate freshness for pantry (MFG: -28d, EXP: 47d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_179","Core Logic","Critical","Calculate freshness for vegetables (MFG: -29d, EXP: 48d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_180","Core Logic","Critical","Calculate freshness for canned (MFG: -30d, EXP: 49d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_181","Core Logic","Critical","Calculate freshness for dairy (MFG: -1d, EXP: -10d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_182","Core Logic","Critical","Calculate freshness for meat (MFG: -2d, EXP: -9d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_183","Core Logic","Critical","Calculate freshness for pantry (MFG: -3d, EXP: -8d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_184","Core Logic","Critical","Calculate freshness for vegetables (MFG: -4d, EXP: -7d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_185","Core Logic","Critical","Calculate freshness for canned (MFG: -5d, EXP: -6d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_186","Core Logic","Critical","Calculate freshness for dairy (MFG: -6d, EXP: -5d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_187","Core Logic","Critical","Calculate freshness for meat (MFG: -7d, EXP: -4d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_188","Core Logic","Critical","Calculate freshness for pantry (MFG: -8d, EXP: -3d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_189","Core Logic","Critical","Calculate freshness for vegetables (MFG: -9d, EXP: -2d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_190","Core Logic","Critical","Calculate freshness for canned (MFG: -10d, EXP: -1d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_191","Core Logic","Critical","Calculate freshness for dairy (MFG: -11d, EXP: 0d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_192","Core Logic","Critical","Calculate freshness for meat (MFG: -12d, EXP: 1d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_193","Core Logic","Critical","Calculate freshness for pantry (MFG: -13d, EXP: 2d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_194","Core Logic","Critical","Calculate freshness for vegetables (MFG: -14d, EXP: 3d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_195","Core Logic","Critical","Calculate freshness for canned (MFG: -15d, EXP: 4d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_196","Core Logic","Critical","Calculate freshness for dairy (MFG: -16d, EXP: 5d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_197","Core Logic","Critical","Calculate freshness for meat (MFG: -17d, EXP: 6d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_198","Core Logic","Critical","Calculate freshness for pantry (MFG: -18d, EXP: 7d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_199","Core Logic","Critical","Calculate freshness for vegetables (MFG: -19d, EXP: 8d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_200","Core Logic","Critical","Calculate freshness for canned (MFG: -20d, EXP: 9d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_201","Core Logic","Critical","Calculate freshness for dairy (MFG: -21d, EXP: 10d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_202","Core Logic","Critical","Calculate freshness for meat (MFG: -22d, EXP: 11d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_203","Core Logic","Critical","Calculate freshness for pantry (MFG: -23d, EXP: 12d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_204","Core Logic","Critical","Calculate freshness for vegetables (MFG: -24d, EXP: 13d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_205","Core Logic","Critical","Calculate freshness for canned (MFG: -25d, EXP: 14d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_206","Core Logic","Critical","Calculate freshness for dairy (MFG: -26d, EXP: 15d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_207","Core Logic","Critical","Calculate freshness for meat (MFG: -27d, EXP: 16d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_208","Core Logic","Critical","Calculate freshness for pantry (MFG: -28d, EXP: 17d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_209","Core Logic","Critical","Calculate freshness for vegetables (MFG: -29d, EXP: 18d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_210","Core Logic","Critical","Calculate freshness for canned (MFG: -30d, EXP: 19d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_211","Core Logic","Critical","Calculate freshness for dairy (MFG: -1d, EXP: 20d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_212","Core Logic","Critical","Calculate freshness for meat (MFG: -2d, EXP: 21d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_213","Core Logic","Critical","Calculate freshness for pantry (MFG: -3d, EXP: 22d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_214","Core Logic","Critical","Calculate freshness for vegetables (MFG: -4d, EXP: 23d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_215","Core Logic","Critical","Calculate freshness for canned (MFG: -5d, EXP: 24d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_216","Core Logic","Critical","Calculate freshness for dairy (MFG: -6d, EXP: 25d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_217","Core Logic","Critical","Calculate freshness for meat (MFG: -7d, EXP: 26d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_218","Core Logic","Critical","Calculate freshness for pantry (MFG: -8d, EXP: 27d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_219","Core Logic","Critical","Calculate freshness for vegetables (MFG: -9d, EXP: 28d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_220","Core Logic","Critical","Calculate freshness for canned (MFG: -10d, EXP: 29d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_221","Core Logic","Critical","Calculate freshness for dairy (MFG: -11d, EXP: 30d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_222","Core Logic","Critical","Calculate freshness for meat (MFG: -12d, EXP: 31d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_223","Core Logic","Critical","Calculate freshness for pantry (MFG: -13d, EXP: 32d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_224","Core Logic","Critical","Calculate freshness for vegetables (MFG: -14d, EXP: 33d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_225","Core Logic","Critical","Calculate freshness for canned (MFG: -15d, EXP: 34d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_226","Core Logic","Critical","Calculate freshness for dairy (MFG: -16d, EXP: 35d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_227","Core Logic","Critical","Calculate freshness for meat (MFG: -17d, EXP: 36d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_228","Core Logic","Critical","Calculate freshness for pantry (MFG: -18d, EXP: 37d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_229","Core Logic","Critical","Calculate freshness for vegetables (MFG: -19d, EXP: 38d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_230","Core Logic","Critical","Calculate freshness for canned (MFG: -20d, EXP: 39d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_231","Core Logic","Critical","Calculate freshness for dairy (MFG: -21d, EXP: 40d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_232","Core Logic","Critical","Calculate freshness for meat (MFG: -22d, EXP: 41d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_233","Core Logic","Critical","Calculate freshness for pantry (MFG: -23d, EXP: 42d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_234","Core Logic","Critical","Calculate freshness for vegetables (MFG: -24d, EXP: 43d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_235","Core Logic","Critical","Calculate freshness for canned (MFG: -25d, EXP: 44d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_236","Core Logic","Critical","Calculate freshness for dairy (MFG: -26d, EXP: 45d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_237","Core Logic","Critical","Calculate freshness for meat (MFG: -27d, EXP: 46d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_238","Core Logic","Critical","Calculate freshness for pantry (MFG: -28d, EXP: 47d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_239","Core Logic","Critical","Calculate freshness for vegetables (MFG: -29d, EXP: 48d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_240","Core Logic","Critical","Calculate freshness for canned (MFG: -30d, EXP: 49d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_241","Core Logic","Critical","Calculate freshness for dairy (MFG: -1d, EXP: -10d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_242","Core Logic","Critical","Calculate freshness for meat (MFG: -2d, EXP: -9d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_243","Core Logic","Critical","Calculate freshness for pantry (MFG: -3d, EXP: -8d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_244","Core Logic","Critical","Calculate freshness for vegetables (MFG: -4d, EXP: -7d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_245","Core Logic","Critical","Calculate freshness for canned (MFG: -5d, EXP: -6d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_246","Core Logic","Critical","Calculate freshness for dairy (MFG: -6d, EXP: -5d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_247","Core Logic","Critical","Calculate freshness for meat (MFG: -7d, EXP: -4d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_248","Core Logic","Critical","Calculate freshness for pantry (MFG: -8d, EXP: -3d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_249","Core Logic","Critical","Calculate freshness for vegetables (MFG: -9d, EXP: -2d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_250","Core Logic","Critical","Calculate freshness for canned (MFG: -10d, EXP: -1d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_251","Core Logic","Critical","Calculate freshness for dairy (MFG: -11d, EXP: 0d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_252","Core Logic","Critical","Calculate freshness for meat (MFG: -12d, EXP: 1d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_253","Core Logic","Critical","Calculate freshness for pantry (MFG: -13d, EXP: 2d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_254","Core Logic","Critical","Calculate freshness for vegetables (MFG: -14d, EXP: 3d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_255","Core Logic","Critical","Calculate freshness for canned (MFG: -15d, EXP: 4d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_256","Core Logic","Critical","Calculate freshness for dairy (MFG: -16d, EXP: 5d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_257","Core Logic","Critical","Calculate freshness for meat (MFG: -17d, EXP: 6d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_258","Core Logic","Critical","Calculate freshness for pantry (MFG: -18d, EXP: 7d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_259","Core Logic","Critical","Calculate freshness for vegetables (MFG: -19d, EXP: 8d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_260","Core Logic","Critical","Calculate freshness for canned (MFG: -20d, EXP: 9d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_261","Core Logic","Critical","Calculate freshness for dairy (MFG: -21d, EXP: 10d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_262","Core Logic","Critical","Calculate freshness for meat (MFG: -22d, EXP: 11d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_263","Core Logic","Critical","Calculate freshness for pantry (MFG: -23d, EXP: 12d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_264","Core Logic","Critical","Calculate freshness for vegetables (MFG: -24d, EXP: 13d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_265","Core Logic","Critical","Calculate freshness for canned (MFG: -25d, EXP: 14d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_266","Core Logic","Critical","Calculate freshness for dairy (MFG: -26d, EXP: 15d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_267","Core Logic","Critical","Calculate freshness for meat (MFG: -27d, EXP: 16d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_268","Core Logic","Critical","Calculate freshness for pantry (MFG: -28d, EXP: 17d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_269","Core Logic","Critical","Calculate freshness for vegetables (MFG: -29d, EXP: 18d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_270","Core Logic","Critical","Calculate freshness for canned (MFG: -30d, EXP: 19d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_271","Core Logic","Critical","Calculate freshness for dairy (MFG: -1d, EXP: 20d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_272","Core Logic","Critical","Calculate freshness for meat (MFG: -2d, EXP: 21d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_273","Core Logic","Critical","Calculate freshness for pantry (MFG: -3d, EXP: 22d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_274","Core Logic","Critical","Calculate freshness for vegetables (MFG: -4d, EXP: 23d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_275","Core Logic","Critical","Calculate freshness for canned (MFG: -5d, EXP: 24d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_276","Core Logic","Critical","Calculate freshness for dairy (MFG: -6d, EXP: 25d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_277","Core Logic","Critical","Calculate freshness for meat (MFG: -7d, EXP: 26d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_278","Core Logic","Critical","Calculate freshness for pantry (MFG: -8d, EXP: 27d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_279","Core Logic","Critical","Calculate freshness for vegetables (MFG: -9d, EXP: 28d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_280","Core Logic","Critical","Calculate freshness for canned (MFG: -10d, EXP: 29d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_281","Core Logic","Critical","Calculate freshness for dairy (MFG: -11d, EXP: 30d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_282","Core Logic","Critical","Calculate freshness for meat (MFG: -12d, EXP: 31d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_283","Core Logic","Critical","Calculate freshness for pantry (MFG: -13d, EXP: 32d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_284","Core Logic","Critical","Calculate freshness for vegetables (MFG: -14d, EXP: 33d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_285","Core Logic","Critical","Calculate freshness for canned (MFG: -15d, EXP: 34d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_286","Core Logic","Critical","Calculate freshness for dairy (MFG: -16d, EXP: 35d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_287","Core Logic","Critical","Calculate freshness for meat (MFG: -17d, EXP: 36d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_288","Core Logic","Critical","Calculate freshness for pantry (MFG: -18d, EXP: 37d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_289","Core Logic","Critical","Calculate freshness for vegetables (MFG: -19d, EXP: 38d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_290","Core Logic","Critical","Calculate freshness for canned (MFG: -20d, EXP: 39d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_291","Core Logic","Critical","Calculate freshness for dairy (MFG: -21d, EXP: 40d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_292","Core Logic","Critical","Calculate freshness for meat (MFG: -22d, EXP: 41d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_293","Core Logic","Critical","Calculate freshness for pantry (MFG: -23d, EXP: 42d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_294","Core Logic","Critical","Calculate freshness for vegetables (MFG: -24d, EXP: 43d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_295","Core Logic","Critical","Calculate freshness for canned (MFG: -25d, EXP: 44d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_296","Core Logic","Critical","Calculate freshness for dairy (MFG: -26d, EXP: 45d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_297","Core Logic","Critical","Calculate freshness for meat (MFG: -27d, EXP: 46d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_298","Core Logic","Critical","Calculate freshness for pantry (MFG: -28d, EXP: 47d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_299","Core Logic","Critical","Calculate freshness for vegetables (MFG: -29d, EXP: 48d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_300","Core Logic","Critical","Calculate freshness for canned (MFG: -30d, EXP: 49d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_301","Core Logic","Critical","Calculate freshness for dairy (MFG: -1d, EXP: -10d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_302","Core Logic","Critical","Calculate freshness for meat (MFG: -2d, EXP: -9d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_303","Core Logic","Critical","Calculate freshness for pantry (MFG: -3d, EXP: -8d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_304","Core Logic","Critical","Calculate freshness for vegetables (MFG: -4d, EXP: -7d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_305","Core Logic","Critical","Calculate freshness for canned (MFG: -5d, EXP: -6d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_306","Core Logic","Critical","Calculate freshness for dairy (MFG: -6d, EXP: -5d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_307","Core Logic","Critical","Calculate freshness for meat (MFG: -7d, EXP: -4d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_308","Core Logic","Critical","Calculate freshness for pantry (MFG: -8d, EXP: -3d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_309","Core Logic","Critical","Calculate freshness for vegetables (MFG: -9d, EXP: -2d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_310","Core Logic","Critical","Calculate freshness for canned (MFG: -10d, EXP: -1d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_311","Core Logic","Critical","Calculate freshness for dairy (MFG: -11d, EXP: 0d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_312","Core Logic","Critical","Calculate freshness for meat (MFG: -12d, EXP: 1d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_313","Core Logic","Critical","Calculate freshness for pantry (MFG: -13d, EXP: 2d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_314","Core Logic","Critical","Calculate freshness for vegetables (MFG: -14d, EXP: 3d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_315","Core Logic","Critical","Calculate freshness for canned (MFG: -15d, EXP: 4d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_316","Core Logic","Critical","Calculate freshness for dairy (MFG: -16d, EXP: 5d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_317","Core Logic","Critical","Calculate freshness for meat (MFG: -17d, EXP: 6d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_318","Core Logic","Critical","Calculate freshness for pantry (MFG: -18d, EXP: 7d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_319","Core Logic","Critical","Calculate freshness for vegetables (MFG: -19d, EXP: 8d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_320","Core Logic","Critical","Calculate freshness for canned (MFG: -20d, EXP: 9d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_321","Core Logic","Critical","Calculate freshness for dairy (MFG: -21d, EXP: 10d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_322","Core Logic","Critical","Calculate freshness for meat (MFG: -22d, EXP: 11d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_323","Core Logic","Critical","Calculate freshness for pantry (MFG: -23d, EXP: 12d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_324","Core Logic","Critical","Calculate freshness for vegetables (MFG: -24d, EXP: 13d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_325","Core Logic","Critical","Calculate freshness for canned (MFG: -25d, EXP: 14d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_326","Core Logic","Critical","Calculate freshness for dairy (MFG: -26d, EXP: 15d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_327","Core Logic","Critical","Calculate freshness for meat (MFG: -27d, EXP: 16d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_328","Core Logic","Critical","Calculate freshness for pantry (MFG: -28d, EXP: 17d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_329","Core Logic","Critical","Calculate freshness for vegetables (MFG: -29d, EXP: 18d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_330","Core Logic","Critical","Calculate freshness for canned (MFG: -30d, EXP: 19d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_331","Core Logic","Critical","Calculate freshness for dairy (MFG: -1d, EXP: 20d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_332","Core Logic","Critical","Calculate freshness for meat (MFG: -2d, EXP: 21d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_333","Core Logic","Critical","Calculate freshness for pantry (MFG: -3d, EXP: 22d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_334","Core Logic","Critical","Calculate freshness for vegetables (MFG: -4d, EXP: 23d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_335","Core Logic","Critical","Calculate freshness for canned (MFG: -5d, EXP: 24d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_336","Core Logic","Critical","Calculate freshness for dairy (MFG: -6d, EXP: 25d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_337","Core Logic","Critical","Calculate freshness for meat (MFG: -7d, EXP: 26d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_338","Core Logic","Critical","Calculate freshness for pantry (MFG: -8d, EXP: 27d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_339","Core Logic","Critical","Calculate freshness for vegetables (MFG: -9d, EXP: 28d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_340","Core Logic","Critical","Calculate freshness for canned (MFG: -10d, EXP: 29d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_341","Core Logic","Critical","Calculate freshness for dairy (MFG: -11d, EXP: 30d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_342","Core Logic","Critical","Calculate freshness for meat (MFG: -12d, EXP: 31d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_343","Core Logic","Critical","Calculate freshness for pantry (MFG: -13d, EXP: 32d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_344","Core Logic","Critical","Calculate freshness for vegetables (MFG: -14d, EXP: 33d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_345","Core Logic","Critical","Calculate freshness for canned (MFG: -15d, EXP: 34d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_346","Core Logic","Critical","Calculate freshness for dairy (MFG: -16d, EXP: 35d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_347","Core Logic","Critical","Calculate freshness for meat (MFG: -17d, EXP: 36d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_348","Core Logic","Critical","Calculate freshness for pantry (MFG: -18d, EXP: 37d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_349","Core Logic","Critical","Calculate freshness for vegetables (MFG: -19d, EXP: 38d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_350","Core Logic","Critical","Calculate freshness for canned (MFG: -20d, EXP: 39d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_351","Core Logic","Critical","Calculate freshness for dairy (MFG: -21d, EXP: 40d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_352","Core Logic","Critical","Calculate freshness for meat (MFG: -22d, EXP: 41d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_353","Core Logic","Critical","Calculate freshness for pantry (MFG: -23d, EXP: 42d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_354","Core Logic","Critical","Calculate freshness for vegetables (MFG: -24d, EXP: 43d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_355","Core Logic","Critical","Calculate freshness for canned (MFG: -25d, EXP: 44d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_356","Core Logic","Critical","Calculate freshness for dairy (MFG: -26d, EXP: 45d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_357","Core Logic","Critical","Calculate freshness for meat (MFG: -27d, EXP: 46d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_358","Core Logic","Critical","Calculate freshness for pantry (MFG: -28d, EXP: 47d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_359","Core Logic","Critical","Calculate freshness for vegetables (MFG: -29d, EXP: 48d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_360","Core Logic","Critical","Calculate freshness for canned (MFG: -30d, EXP: 49d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_361","Core Logic","Critical","Calculate freshness for dairy (MFG: -1d, EXP: -10d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_362","Core Logic","Critical","Calculate freshness for meat (MFG: -2d, EXP: -9d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_363","Core Logic","Critical","Calculate freshness for pantry (MFG: -3d, EXP: -8d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_364","Core Logic","Critical","Calculate freshness for vegetables (MFG: -4d, EXP: -7d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_365","Core Logic","Critical","Calculate freshness for canned (MFG: -5d, EXP: -6d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_366","Core Logic","Critical","Calculate freshness for dairy (MFG: -6d, EXP: -5d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_367","Core Logic","Critical","Calculate freshness for meat (MFG: -7d, EXP: -4d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_368","Core Logic","Critical","Calculate freshness for pantry (MFG: -8d, EXP: -3d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_369","Core Logic","Critical","Calculate freshness for vegetables (MFG: -9d, EXP: -2d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_370","Core Logic","Critical","Calculate freshness for canned (MFG: -10d, EXP: -1d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_371","Core Logic","Critical","Calculate freshness for dairy (MFG: -11d, EXP: 0d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_372","Core Logic","Critical","Calculate freshness for meat (MFG: -12d, EXP: 1d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_373","Core Logic","Critical","Calculate freshness for pantry (MFG: -13d, EXP: 2d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_374","Core Logic","Critical","Calculate freshness for vegetables (MFG: -14d, EXP: 3d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_375","Core Logic","Critical","Calculate freshness for canned (MFG: -15d, EXP: 4d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_376","Core Logic","Critical","Calculate freshness for dairy (MFG: -16d, EXP: 5d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_377","Core Logic","Critical","Calculate freshness for meat (MFG: -17d, EXP: 6d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_378","Core Logic","Critical","Calculate freshness for pantry (MFG: -18d, EXP: 7d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_379","Core Logic","Critical","Calculate freshness for vegetables (MFG: -19d, EXP: 8d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_380","Core Logic","Critical","Calculate freshness for canned (MFG: -20d, EXP: 9d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_381","Core Logic","Critical","Calculate freshness for dairy (MFG: -21d, EXP: 10d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_382","Core Logic","Critical","Calculate freshness for meat (MFG: -22d, EXP: 11d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_383","Core Logic","Critical","Calculate freshness for pantry (MFG: -23d, EXP: 12d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_384","Core Logic","Critical","Calculate freshness for vegetables (MFG: -24d, EXP: 13d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_385","Core Logic","Critical","Calculate freshness for canned (MFG: -25d, EXP: 14d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_386","Core Logic","Critical","Calculate freshness for dairy (MFG: -26d, EXP: 15d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_387","Core Logic","Critical","Calculate freshness for meat (MFG: -27d, EXP: 16d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_388","Core Logic","Critical","Calculate freshness for pantry (MFG: -28d, EXP: 17d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_389","Core Logic","Critical","Calculate freshness for vegetables (MFG: -29d, EXP: 18d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_390","Core Logic","Critical","Calculate freshness for canned (MFG: -30d, EXP: 19d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_391","Core Logic","Critical","Calculate freshness for dairy (MFG: -1d, EXP: 20d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_392","Core Logic","Critical","Calculate freshness for meat (MFG: -2d, EXP: 21d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_393","Core Logic","Critical","Calculate freshness for pantry (MFG: -3d, EXP: 22d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_394","Core Logic","Critical","Calculate freshness for vegetables (MFG: -4d, EXP: 23d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_395","Core Logic","Critical","Calculate freshness for canned (MFG: -5d, EXP: 24d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_396","Core Logic","Critical","Calculate freshness for dairy (MFG: -6d, EXP: 25d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'dairy')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_397","Core Logic","Critical","Calculate freshness for meat (MFG: -7d, EXP: 26d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'meat')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_398","Core Logic","Critical","Calculate freshness for pantry (MFG: -8d, EXP: 27d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'pantry')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_399","Core Logic","Critical","Calculate freshness for vegetables (MFG: -9d, EXP: 28d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'vegetables')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
+"UNIT_TC_400","Core Logic","Critical","Calculate freshness for canned (MFG: -10d, EXP: 29d)","System active","1. Call calculateFreshness(mfgDate, expDate, 'canned')
+2. Assert returned percentage","Freshness score mathematically matches formula without throwing errors","Pending"
