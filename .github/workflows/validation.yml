@@ -1,0 +1,20 @@
+name: Upload Validation Test Cases
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  upload-validation-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Upload Validation Test Cases
+        uses: actions/upload-artifact@v4
+        with:
+          name: Validation Test Cases
+          path: test_cases/validation_test_cases.xlsx
