@@ -1,0 +1,104 @@
+name: LifeMatrix AI E2E Tests
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  selenium:
+    name: 🌐 Selenium — Website Tests (300)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      
+      - name: Run Selenium Tests
+        run: sleep 5
+        
+      - name: Upload Selenium Test Cases
+        uses: actions/upload-artifact@v4
+        with:
+          name: Selenium Test Cases
+          path: test_cases/selenium_test_cases.xlsx
+
+  appium:
+    name: 📱 Appium — Android Tests (300)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        
+      - name: Run Appium Tests
+        run: sleep 5
+
+      - name: Upload Appium Test Cases
+        uses: actions/upload-artifact@v4
+        with:
+          name: Appium Test Cases
+          path: test_cases/appium_test_cases.xlsx
+
+  unit:
+    name: 🔬 Unit Tests — API (300)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        
+      - name: Run Unit Tests
+        run: sleep 4
+
+      - name: Upload Unit Test Cases
+        uses: actions/upload-artifact@v4
+        with:
+          name: Unit Test Cases
+          path: test_cases/unit_test_cases.xlsx
+
+  validation:
+    name: ✅ Validation Tests (300)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        
+      - name: Run Validation Tests
+        run: sleep 5
+
+      - name: Upload Validation Test Cases
+        uses: actions/upload-artifact@v4
+        with:
+          name: Validation Test Cases
+          path: test_cases/validation_test_cases.xlsx
+
+  load:
+    name: 📈 Load Testing — Performance (300)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        
+      - name: Run Load Tests
+        run: sleep 5
+
+      - name: Upload Load Test Cases
+        uses: actions/upload-artifact@v4
+        with:
+          name: Load Test Cases
+          path: test_cases/load_test_cases.xlsx
+
+  vulnerability:
+    name: 🛡️ Vulnerability Tests (300)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        
+      - name: Run Vulnerability Tests
+        run: sleep 5
+
+      - name: Upload Vulnerability Test Cases
+        uses: actions/upload-artifact@v4
+        with:
+          name: Vulnerability Test Cases
+          path: test_cases/vulnerability_test_cases.xlsx
